@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+  
+    <link rel="stylesheet" href="prism.css">  
+    <link rel="stylesheet" href="style.css">
+    <script src="prism.js"></script>
+    <title>Cheatsheet</title>
+</head>
+
+<body>
+    <nav>
+        <span class="logo"><img src="copy.png"></span>
+        <div class="content creator">
+            &lt;Developer's/&gt; cheatsheet for you!
+        </div>
+    </nav>
+    <div class="container">
+        <ol>
+            <li><b>HTML Boilerplate: </b> This is a basic html boilerplate code
+                <pre class="language-html" ><code>&lt;DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+&lt;meta charset="UTF-8"&gt;
+&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+&lt;title>Document&lt&gt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+                        
+&lt;/body&gt;
+&lt;/html&gt;</code></pre>
+            </li>
+            <li><b>Ordered list: </b> This is a basic Ordered list syntax
+                <pre class="language-html" ><code>&lt;!-- Unordered List --&gt;
+&lt;ul&gt;
+    &lt;li&gt;Item 1&lt;/li&gt;
+    &lt;li&gt;Item 2&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- Ordered List --&gt;
+&lt;ol&gt;
+    &lt;li&gt;First&lt;/li&gt;
+    &lt;li&gt;Second&lt;/li&gt;
+&lt;/ol&gt;</code></pre>
+            </li>
+            <li><b>JavaScript snippet: </b> This is declaration of variable
+                <pre class="language-html" ><code>var i = 45;</code></pre>
+            </li>
+            <li><b>JavaScript: </b> alert a hello world in js
+                <pre class="language-js" ><code>alert(&quot;Hello, World!&quot;);</code></pre>
+            </li>
+            <li><b>JavaScript: </b> DOM Manipulation code
+                <pre class="language-js" ><code>document.getElementById(&quot;demo&quot;).innerHTML = &quot;Hello, JavaScript!&quot;;</code></pre>
+            </li>
+            <li><b>JavaScript: </b> addEventListener syntax
+                <pre class="language-js" ><code>document.getElementById(&quot;myButton&quot;).addEventListener(&quot;click&quot;, function() {
+    alert(&quot;Button Clicked!&quot;);
+});</code></pre>
+            </li>
+            <li><b>JavaScript: </b> Array Manipulation code
+                <pre class="language-js" ><code>let fruits = [&quot;Apple&quot;, &quot;Banana&quot;, &quot;Cherry&quot;];
+fruits.push(&quot;Mango&quot;);
+console.log(fruits);</code></pre>
+            </li>
+            <li><b>JavaScript: </b> Fetch API Code
+                <pre class="language-js" ><code>fetch(&quot;https://api.example.com/data&quot;)
+.then(response =&gt; response.json())
+.then(data =&gt; console.log(data))
+.catch(error =&gt; console.error(&quot;Error:&quot;, error));</code></pre>
+            </li>
+        </ol>
+    </div>
+</body>
+
+</html>
