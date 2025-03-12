@@ -8,3 +8,7 @@ This is a cheatsheet made for developers who work's with development projects. I
 
 ## Webpage link
 Link - https://manojku9.github.io/Cheatsheet/
+
+## webpage Screenshot
+![web page](./webpage.jpg)
+
