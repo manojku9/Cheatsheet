@@ -88,6 +88,16 @@ document.querySelector(".myBox").style.backgroundColor = "lightgreen";
 document.querySelectorAll("div").forEach(div => div.style.border = "1px solid black");
                 </code></pre>
             </li>
+            <li><b>JavaScript: </b>Creating and Appending Elements
+    <pre class="language-js"><code>
+document.getElementById("addButton").addEventListener("click", () => {
+const newParagraph = document.createElement("p");
+newParagraph.textContent = "New paragraph added!";
+newParagraph.style.color = "blue";
+document.body.appendChild(newParagraph);
+});
+    </code></pre>
+</li>
             <li><b>JavaScript: </b> Event Delegation
                 <pre class="language-js"><code>
 document.querySelector(".parentList").addEventListener("click", (event) => {
