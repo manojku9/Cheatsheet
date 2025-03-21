@@ -88,6 +88,20 @@ document.querySelector(".myBox").style.backgroundColor = "lightgreen";
 document.querySelectorAll("div").forEach(div => div.style.border = "1px solid black");
                 </code></pre>
             </li>
+            <li><b>JavaScript: </b> Event Delegation
+                <pre class="language-js"><code>
+document.querySelector(".parentList").addEventListener("click", (event) => {
+if (event.target.tagName === "LI") {
+alert(`You clicked on: ${event.target.textContent}`);
+}
+});
+            
+const newItem = document.createElement("li");
+newItem.textContent = "New List Item";
+document.querySelector(".parentList").appendChild(newItem);
+                </code></pre>
+            </li>
+            
         </ol>
     </div>
 </body>
