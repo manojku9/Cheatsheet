@@ -111,6 +111,24 @@ newItem.textContent = "New List Item";
 document.querySelector(".parentList").appendChild(newItem);
                 </code></pre>
             </li>
+
+            <li><b>JavaScript: </b> Debouncing
+                <pre class="language-js"><code>let timeout;
+function debounce(func, delay) {
+    return function(...args) {
+    clearTimeout(timeout);
+    timeout = setTimeout(() => func(...args), delay);
+     };
+}
+            
+const handleResize = debounce(() => {
+console.log("Window resized!");
+}, 300);
+            
+window.addEventListener("resize", handleResize);
+                </code></pre>
+            </li>
+            
             
         </ol>
     </div>
